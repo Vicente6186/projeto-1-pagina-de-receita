@@ -1,11 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573A37;
+}
+
 body{
     background-image: url(assets/bg.jpg);
     background-size: cover;
 }
 
-
 main{
-    margin: 48px auto;
+    margin: 48px auto 28px;
     width: 800px;
     border-radius: 24px;
     padding: 24px;
@@ -13,7 +23,28 @@ main{
     background-color: #F0E8C2;
 }
 
+img{ border-radius: 16px; }
 
-img{
-    border-radius: 16px;
+.container{ padding: 24px; }
+
+section + section{ margin-top: 24px; }
+
+h1, h2{
+    margin-bottom: 4px;
+    line-height: 1.4;
+    color: #291B1A;
 }
+h1 {font-size: 40px;}
+h2 {font-size: 24px;}
+
+p + p { margin-top: 12px; }
+
+ul{ list-style-position: inside; }
+
+footer {
+    margin-bottom: 48px;
+    text-align: center;
+    color: #F0E8C2;
+}
+
+footer img { vertical-align: middle; }
